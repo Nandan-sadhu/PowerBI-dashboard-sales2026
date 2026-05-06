@@ -45,5 +45,12 @@ Replaced null values in the `score` column with `0`.
 
 Created a calculated column:
 
-```DAX
+## Data model
+![PowerBI-dashboard-sales2026](screenshots/ss2.png)
+
+
+## DAX
 clean_score = COALESCE(customers[score], 0)
+
+## Dashboard
+![PowerBI-dashboard-sales2026](screenshots/ss1.png)
